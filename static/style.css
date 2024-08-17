@@ -1,0 +1,142 @@
+body{
+    background-color: rgba(224, 213, 221, 0.858);
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.headline a{
+    font-size: 30px;
+    margin-left: 10%;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.firstimg{
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image covers the entire area */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.headline {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secondimg{
+    height: 30%;
+    width: 30%;
+    margin-left: 37%;
+}
+
+.content{
+    margin-left: 35%;   
+    color: rgb(23, 189, 255);
+}
+
+h2{
+    margin-left: 47%; 
+    color: rgb(2, 211, 193);
+}
+
+.thirdimg{
+    width: 150px;
+    height: 200px;
+    margin-left: 35%;
+}
+
+.skil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.skil .text {
+    margin-left: 3%;
+    margin-top: -5%;
+    text-align: justify;
+    margin-right: 18%;
+    color: rgb(66, 24, 140);
+}
+
+h6{
+    font-size: 20px;
+}
+
+.fourthimg{
+    width: 180px;
+    height: 170px;
+    margin-right:18% ;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.skill .textt {
+   
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 35%; 
+    color: rgb(66, 24, 140);
+}
+
+.get{
+    
+    text-align: center;
+    margin-left: 7%;
+}
+
+button{
+    background-color: rgb(2, 211, 193);
+    border-radius: 15%;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin-left: 40%;
+    display: flex; /* Uses flexbox to align items in a line */
+}
+.navbar li {
+   
+    margin: 0 15px; /* Adds spacing between items */
+}
+.navbar a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets link color */
+    padding: 10px 15px; /* Adds padding to links */
+    display: block; /* Makes the link fill the `li` element */
+}
+.navbar a:hover {
+    background-color: #ddd; /* Changes background color on hover */
+}
+
+.footer{
+   
+    background-color: rgb(2, 211, 193) ;
+
+}
